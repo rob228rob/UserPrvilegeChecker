@@ -6,13 +6,10 @@ const addon = require('./build/Release/addon.node');
 const app = express();
 const PORT = 3000;
 
-// Указываем путь к статическим файлам (CSS, изображения и т.д.)
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Разбираем URL-кодированные данные
 app.use(express.urlencoded({ extended: true }));
 
-// HTML содержимое для index.html
 const indexHTML = `
 <!DOCTYPE html>
 <html lang="en">
@@ -33,7 +30,6 @@ const indexHTML = `
 </html>
 `;
 
-// HTML содержимое для result.html
 const resultHTML = `
 <!DOCTYPE html>
 <html lang="en">
