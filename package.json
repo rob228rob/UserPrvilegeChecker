@@ -1,0 +1,20 @@
+{
+  "name": "user-privilege-checker",
+  "version": "1.0.0",
+  "description": "A web application to check user privileges on Windows using Node.js, Node-Addon-API, and WinAPI.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "node-gyp configure build"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-addon-api": "^3.2.1",
+    "open": "^8.0.0"
+  },
+  "devDependencies": {
+    "node-gyp": "^8.2.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
