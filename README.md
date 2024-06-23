@@ -19,9 +19,9 @@
 2. **Установка Windows Build Tools:**
    - Для сборки node-addon-api на Windows требуются Windows Build Tools.
    - Установите их, запустив командную строку от имени администратора и выполните следующую команду:
-
+```bash
      npm install --global windows-build-tools
-
+```
    - Это установит все необходимые компоненты, такие как Python, MSBuild и Visual C++ Build Tools.
 
 #### Установка проекта
@@ -29,8 +29,7 @@
 1. **Клонирование репозитория:**
    - Склонируйте репозиторий с GitHub с помощью следующей команды:
 
-     git clone ссылка_на_ваш_репозиторий
-     cd User-Privilege-Checker
+     git clone https://github.com/rob228rob/UserPrvilegeChecker.git
 
 
 2. **Установка зависимостей:**
@@ -83,4 +82,4 @@
 
 ### GitHub репозиторий
 
-Проект доступен на GitHub по следующей ссылке: [User Privilege Checker](ссылка_на_ваш_репозиторий)
+Проект доступен на GitHub по следующей ссылке: https://github.com/rob228rob/UserPrvilegeChecker;
